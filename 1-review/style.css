@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+ a {
+    text-decoration: underline;
+    color: blue;
+ }
+ a:hover{
+    text-decoration: underline;
+    color: #0f141e;
+ }
+ a:active{
+    text-decoration: solid;
+    color: #626262;
+ }
+ a:visited {
+    text-decoration: line-through;
+    color: rgb(57, 77, 255);
+ }
+.avatar {
+    width: 250px;
+    height: 300px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    box-shadow: 5px 5px 15px #626262;
+}
+.info p {
+    color: darkslategrey;
+    margin: 0;
+    font-style: normal;
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.social{ 
+    background-color: bisque;
+    padding: 15px;
+    border: 5px outset red;
+    border-radius: 25px;
+}
+.academics {
+    background-color: aqua;
+    padding: 15px;
+    border: solid 5px;
+    border-color: darkblue;
+    border-radius: 25px 0px 25px 0px;
+}
+.info {
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0px 20px 10px;
+    position: relative;
+}
+.info text{
+    margin-left: 20px;
+}
+.info h1{
+    margin-right: 20 px;
+}
+.all {
+    background-color:darksalmon;
+    padding: 15px;
+    border: solid 5px;
+    border-radius: 25px;
+    border-color: lightgreen;
+}
+span {
+    box-sizing: border-box;
+    display: inline;
+}
+.img {
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: 009579;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+body {
+    background-color: #009579;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 450px;
+    max-width: 350px;
+    width: 100%;
+    padding:0px 2rem;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.container header{
+    text-align: center;
+    margin: 2rem auto 2rem;
+    font-weight: 500;
+    color:black;
+    font-size: 2rem;
+}
+.main    input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1.3rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;  
+    justify-content:left;
+}
+.container footer{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+.btn input{
+    background-color: #009579;
+    width: 180px;
+    height: 50px;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input :focus{
+    border: none;
+    border-bottom: 2px solid grey;
+}
+a{
+    text-decoration: none;
+    color: #009579;
+}
+a:hover {
+  text-decoration: underline;
+    color: #009579;
+}
+a:active{
+    text-decoration: underline;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: #009579;
+}

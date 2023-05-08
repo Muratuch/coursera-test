@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #0f141e;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #009579;
+    min-height: 100vh;
+    width: auto;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 430px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.main header {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.container .main {
+    padding: 2rem;
+}
+
+.main input{
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 1.09rem;
+    margin-bottom: 1.3rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: #009579;
+}
+a:hover {
+  text-decoration: underline;
+    color: #009579;
+}
+a:active{
+    text-decoration: underline;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: #009579;
+}
+.main .button {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #009579;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1.7rem;
+}
+.main p{
+    text-align: center;
+    font-size: 500;
+    font-size: 1rem;
+}
+
